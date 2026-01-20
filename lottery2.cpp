@@ -5,7 +5,6 @@ int main() {
     int n;
     cin >> n;
 
-    // MacBook Range
     if (n >= 300 && n <= 460) {
         cout << "You won a MacBook" << endl;
 
@@ -16,7 +15,6 @@ int main() {
         }
     }
 
-    // Kurkure Range
     else if (n >= 200 && n <= 280) {
         cout << "You won a pack of Kurkure" << endl;
 
@@ -27,7 +25,6 @@ int main() {
         }
     }
 
-    // Cycle Range
     else if (n >= 1100 && n <= 1500) {
         cout << "You won a Cycle" << endl;
 
@@ -38,7 +35,6 @@ int main() {
         }
     }
 
-    // Bike Range
     else if (n > 50 && n <= 80) {
         cout << "You won a Bike" << endl;
 
@@ -48,8 +44,7 @@ int main() {
             cout << "Model: Rajdoot";
         }
     }
-
-    // Other values
+    
     else {
         cout << "Better luck next time";
     }
